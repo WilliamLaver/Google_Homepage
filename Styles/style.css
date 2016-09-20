@@ -84,7 +84,7 @@ body {
 	color: #4285f4;
 	font-size: 16px;
 	position: relative;
-	margin-left: 715px;
+	margin-left: 710px;
 	margin-top: -20px;
 	white-space: nowrap;
 	width: 0;
@@ -106,7 +106,7 @@ body {
 	max-width: 672px;
 	position: relative;
 	text-align: center;
-	margin: 0px 300px;
+	margin: 0px 300px 50px;
 }
 
 #search_bar:hover {
@@ -182,4 +182,21 @@ body {
 #search_bar input:active {
 	opacity: 1.0;
 	background-color: #fff;
+}
+
+#suggestion_pane {
+	display: inline;
+	margin-left: 700px;
+}
+
+.suggestion {
+	height: 120px; width: 150px;
+	margin: 8px;
+	background-color: #bbb;
+	display: inline-block;
+}
+
+.suggestion:hover {
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-color: rgba(150,150,150,1);
 }
